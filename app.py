@@ -1,5 +1,4 @@
 #import relevant libraries for flask,html rendering and loading the ML model
-from msilib.schema import InstallUISequence
 from flask import Flask,request,url_for,render_template
 import pickle
 import pandas as pd
