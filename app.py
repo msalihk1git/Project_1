@@ -7,7 +7,7 @@ app = Flask(__name__)
 # model=pickle.load(open("model.pkl","rb"))
 model=joblib.load(open("model.pkl","rb"))
 # scale=pickle.load(open("scale.pkl","rb"))
-scale=joblib.load(open("scale.pkl","rb"))
+scale=joblib.load(open("scale.pk1","rb"))
 
 
 @app.route("/")
